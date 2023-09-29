@@ -1,0 +1,2478 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.signupimg img{
+    height: 60vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    height: 60vh;
+    border-radius: 40px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 40vw;
+
+}
+.signup1 label{
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 25vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signup button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 5vh;
+    width: 7.5vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 80vh;
+    background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+.about-1{
+    height: 80vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        width: 45vw;
+}
+.about-2{
+    height: 20vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        width: 45vw;
+}
+.about-2 h2{
+    color: yellowgreen;
+}
+.about-3{
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 45vw;
+}
+.about-3 img{
+    height: 10vh;
+}
+.about-1 img{
+    height: 80vh;
+}
+.landing{
+    height: 80vh;
+background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 45vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 30vh;
+    width: 30vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 70vh;
+    border-radius: 20px;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact img{
+    height: 70vh;
+}
+.contact-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 60vw;
+
+}
+.contact-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 30vw;
+    flex-direction: column;
+}
+.contact-2 button{
+    background-color: #80ed99;
+    height: 6vh;
+    width: 12vw;
+    border: 2px solid #80ed99;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contact-2 a{
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.iframe{
+    height: 40vh;
+    width: 30vw;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:10vh;
+    width: 100%;
+    padding: 1vh;
+    background-color: #1d2d44;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: #f7e1d7;
+    transition: all 2s;
+}
+.header img:hover(){
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: #d4a373;
+}
+.header .active img{
+    background-color: #457b9d;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 100%;
+    background-color: #1d2d44;
+    border-bottom: 3px solid black;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 70%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 1vh;
+    border: 5px solid black;
+}
+.search button{
+    height: 8vh;
+    background-color: #e9c46a;
+    width: 20%;
+    border: 2px solid #e9c46a;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.chattitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    background-color: #1d2d44;
+    width: 100%;
+    border-bottom: 2px solid black;
+    color: #f8edeb;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    background-color: #1d2d44;
+    overflow-y: auto;
+}
+.conversation-update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-color: #0077b6;
+    overflow-y: auto;
+}
+.conversation-update img{
+    height: 85vh;
+    width: 100%;
+}
+.conversation img{
+    height: 72.4vh;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: #00171f;
+    border: 2px solid black;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 10%;
+    border-radius: 20px;
+}
+.c1 img{
+    height: 8vh;
+    border-radius: 20px;
+    padding: 1vh;
+    cursor: pointer;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:10vh;
+    width: 87%;
+    flex-direction: column;
+}
+.c22 img{
+    height: 5vh;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    color: wheat;
+}
+.c22 button{
+    background-color: transparent;
+    height: 5vh;
+    width: 5vw;
+    color: whitesmoke;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    cursor: pointer; 
+    align-items: center;   
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+.c3 p{
+    font-weight: 600;
+    font-size: 1rem;
+    color: wheat;
+}
+.c22 p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.workarea-home{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #fff;
+        font-size: 1rem;
+}
+.workarea-home img{
+    height: 80vh;
+}
+.workarea{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #0d1321;
+        overflow-y:auto;
+}
+
+.workarea-update{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #0d1321;
+
+}
+.workarea-update img{
+    height: 20vh;
+}
+.workarea-update h1{
+    color: yellowgreen;
+}
+.workarea-update button{
+    font-size: 600;
+}
+.personalinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 60vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #000814;
+}
+.personalinfo img{
+    height: 20vh;
+}
+.personalinfo h1{
+    color: yellowgreen;
+}
+.personalinfo h2{
+    color:beige;
+    font-size: 2.5rem;
+}
+.personalinfo button{
+    height: 5vh;
+    width: 10vw;
+    color: black;
+    font-size: 1.2rem;
+    background-color: #00b4d8;
+    border: 2px solid #00b4d8;
+    cursor: pointer;
+    font-weight: 600;
+}
+.personalinfo a{
+    color: black;
+    font-weight: 600;
+}
+.personalinfo form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 60vw;
+}
+.personalinfo input{
+    height: 6vh;
+    width: 30vw;
+
+}
+.messages-user{
+    display: flex;
+    border: 2px solid wheat;
+    background-color: wheat;
+    padding: 1vh;
+    font-weight: 600;
+    color: black;
+    width: 30vw;
+    font-family: sans-serif;
+}
+.chat-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d1321;
+    width: 100%;
+    height: 10vh;
+    padding: 1vh;
+}
+.chat-header h2{
+    font-family: sans-serif;
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 1vh;
+    border-radius: 20px;
+    background-color: #e9c46a;
+}
+.chat-header h2:nth-child(2){
+    font-family: sans-serif;
+    font-size: 2rem;
+    background-color: crimson;
+    border: 2px solid crimson;
+    padding: 1vh;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.messages-user-1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid wheat;
+    background-color: wheat;
+    padding: 1vh;
+    font-weight: 600;
+    color: black;
+    width: 30vw;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
+.workarea-chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 70%;
+    border: 2px solid black;
+    padding: 1vh;
+    background-color: #0d1321;
+    overflow-y:auto;
+
+}
+.workarea-chat img{
+    height: 10vh;
+}
+.workarea-chat form{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+}
+.workarea-chat form input{
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.workarea-chat form button{
+    height: 8vh;
+    background-color: #00b4d8;
+    border: 2px solid #00b4d8;
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.messages-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    border: 2px solid white;
+    background-color: #0d1321;
+}
+.messages-class-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    color: wheat;
+}
+.messages-class-11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 2px solid #ffc300;
+    background-color: #ffc300;
+    border-radius:20px;
+    min-width: 30%;
+    min-height: auto;
+    position: relative;
+    right: 35%;
+}
+.messages-class-11 p:nth-child(1){
+    font-weight: 700;
+    color: black;
+}
+.messages-class-11 p:nth-child(2){
+    font-weight: 900;
+    color: black;
+}
+.messages-class-11 img{
+    height: 5vh;
+    cursor: pointer;
+}
+.messages-class-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 2px solid #ff7b00;
+    border-radius:20px;
+    min-width: 30%;
+    min-height: auto;
+    background-color: #ff7b00;
+    position: relative;
+    right: -35%
+}
+.messages-class-12 p:nth-child(1){
+    font-weight: 700;
+    color: black;
+}
+.messages-class-12 p:nth-child(2){
+    font-weight: 900;
+    color: black;
+}
+.messages-class-12 img{
+    height: 5vh;
+    cursor: pointer;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        border: 10px solid brown;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:10vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header  img{
+    height: 2vh;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: blue;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 1vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+  
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 1vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:10vh;
+    width: 100%;
+    padding: 0.5vh;
+    background-color: #0077b6;
+}
+.header img{
+    height: 2vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: #f7e1d7;
+}
+.header .active img{
+    background-color: #ffb703;
+}
+.search{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+        background-color: #0077b6;
+        border-bottom: 3px solid black;
+}
+.search img{
+    height: 2vh;
+}
+.search input {
+    height: 8vh;
+    width: 70%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 1vh;
+    border: 5px solid black;
+}
+.search button{
+    height: 8vh;
+    background-color: #f7e1d7;
+    width: 20%;
+    border: 2px solid #f7e1d7;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.chattitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    background-color: #0077b6;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    background-color: #0077b6;
+    overflow-y: auto;
+}
+.conversation-update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-color: #0077b6;
+    overflow-y: auto;
+}
+
+.conversation-update img{
+    height: 85vh;
+    width: 100%;
+    
+}
+.conversation img{
+    height: 72.4vh;
+    
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: #e63946;
+    border: 2px solid black;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 10%;
+    border-radius: 20px;
+}
+.c1 img{
+    height: 3vh;
+    border-radius: 20px;
+    padding: 1vh;
+    cursor: pointer;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:10vh;
+    width: 87%;
+    flex-direction: column;
+}
+.c22 img{
+    height: 3vh;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    color: wheat;
+}
+.c22 button{
+    background-color: transparent;
+    height: 5vh;
+    width: 5vw;
+    color: whitesmoke;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    cursor: pointer; 
+    align-items: center;   
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+.c3 p{
+    font-weight: 600;
+    font-size: 1rem;
+    color: wheat;
+}
+.c22 p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.workarea-home{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 50%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #fff;
+        background-image: url('./2.png');
+}
+.workarea-home img{
+    height: 10vh;
+}
+.workarea{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #0d1321;
+}
+.workarea input{
+    height: 8vh;
+    width: 56vw;
+    position: absolute;
+    right:10%;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+.workarea img{
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    right:66%;
+}
+.workarea button{
+    position: absolute;
+    height: 8vh;
+    background-color: #00b4d8;
+    border: 2px solid #00b4d8;
+    width: 10vw;
+    right: 0;
+    bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.persheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #e9c46a;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    background-color: #e9c46a;
+}
+.workarea-update{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        padding: 1vh;
+        background-color: #0d1321;
+}
+.workarea-update img{
+    height: 20vh;
+}
+.workarea-update h1{
+    color: yellowgreen;
+}
+.workarea-update button{
+    font-size: 600;
+}
+.personalinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 60vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #000814;
+}
+.personalinfo img{
+    height: 20vh;
+}
+.personalinfo h1{
+    color: yellowgreen;
+}
+.personalinfo h2{
+    color:beige;
+    font-size: 2.5rem;
+}
+.personalinfo button{
+    height: 5vh;
+    width: 10vw;
+    color: black;
+    font-size: 1.2rem;
+    background-color: #00b4d8;
+    border: 2px solid #00b4d8;
+    cursor: pointer;
+    font-weight: 600;
+}
+.personalinfo a{
+    color: black;
+    font-weight: 600;
+}
+.personalinfo form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 60vw;
+}
+.personalinfo input{
+    height: 6vh;
+    width: 30vw;
+
+}
+}
+@media screen and (min-width:481px) and (max-width:720px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+
+background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: silver;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll ;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 13vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+}
+@media screen and (min-width:721px) and (max-width:1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+
+background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: silver;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll ;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 13vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+
+background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: silver;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll ;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 13vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1300px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+
+background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: silver;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll ;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 13vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inclusive+Sans:ital@1&family=Mukta&family=Open+Sans&family=Pacifico&family=Poppins&family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* SIGNUP PAGE */
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+}
+.signupimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+.signupimg img{
+    height: 30vh;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    height: 55vh;
+    width: 98vw;
+    border-radius: 20px;
+}
+.signup1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 95vw;
+}
+.signup1 label{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+.signup1 input{
+    height: 5vh;
+    width: 65vw;
+    color: black;
+    font-size: 1.2rem;
+}
+.signupbox button{
+    background-color: #fff;
+    color: black;
+    font-size: 1.2rem;
+    height: 6vh;
+    width: 25vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup a{
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+.signup1 label:after {
+    content: " *";
+    color: red;
+}
+.signupbox p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.signupbox p::before {
+    content: "*  ";
+    color: red;
+    font-size: 1.2rem;
+}
+.about{
+    height: 180vh;
+    background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.landing{
+    height: 180vh;
+
+background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: 80vh;
+}
+.l1 table{
+    color: white;
+    border: 2px solid whitesmoke;
+    height: 40vh;
+    width: 70vw;
+}
+.l1 table td{
+    color: whitesmoke;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+.l1 img{
+    height: 45vh;
+}
+.l1 button{
+    color: whitesmoke;
+    background-color: #e85d04;
+    padding: 1.2vh;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid #e85d04;
+}
+.l1 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.l1 h2{
+    color: whitesmoke;
+}
+.contact{
+    height:80vh;
+    background-color: black;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: #e5e5e5;
+}
+.header img{
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1vh;
+    cursor: pointer;
+    background-color: silver;
+}
+.search{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+
+            background-color: #e5e5e5;
+            margin-top: 1vh;
+            border-radius: 20px;
+}
+.search img{
+    height: 5vh;
+}
+.search input {
+    height: 8vh;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.conversation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 80vh;
+    overflow-y:scroll ;
+}
+.conversationbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 20vh;
+    width: 100%;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 19vh;
+    width: 30%;
+    background-color: silver;
+    border-radius: 50%;
+}
+.c1 img{
+    height: 13vh;
+    border-radius: 20px;
+    padding: 1vh;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20vh;
+    width: 70%;
+    flex-direction: column;
+}
+.c22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.workarea{
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 1vh;
+        background-color: #fff;
+}
+}
